@@ -1,0 +1,15 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+    {{ flatpage.title }}
+{% endblock title %}
+
+
+{% block header %}
+    <span style="color: green">{{ flatpage.title }}</span>
+{% endblock header %}
+
+
+{% block content %}
+    <span style="color: blue; font-size: 60px"> {{ flatpage.content }} </span>
+{% endblock content %}
